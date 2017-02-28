@@ -1,0 +1,71 @@
+.container-intro {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 12px;
+  margin: 0 auto;
+  padding: 16px;
+  width: 90%;
+  max-width: 600px;
+  .intro {
+    background-image: url('../../images/wc-bg-paper-white.jpg');
+    background-size: 50%;
+    border-radius: 8px;
+    margin: 0 auto;
+    padding: 30px 0;
+
+    .mention {
+      padding-top: 16px;
+      text-align: center;
+
+      .name-ko {
+        font-size: 24px;
+      }
+      .name-en {
+        font-family: 'Allura', cursive;
+        font-size: 30px;
+      }
+      .handwrite {
+        color: #7d95a1;
+        font-family: 'Allura', cursive;
+      }
+      .date {
+        font-size: 14px;
+        padding-top: 16px;
+      }
+    }
+    .place {
+      padding-top: 16px;
+      font-size: 14px;
+    }
+    .address {
+      font-size: 10px;
+    }
+  }
+
+
+}
+
+@media screen and (min-width: 992px) {
+  .container-intro {
+    font-size: 16px;
+    width: 75%;
+    .intro {
+      background-size: 25%;
+      .mention {
+        .name-ko {
+          font-size: 42px;
+        }
+        .name-en {
+          font-size: 42px;
+        }
+      }
+      .place {
+        font-size: 20px;
+      }
+      .address {
+        font-size: 16px;
+      }
+    }
+  }
+}
