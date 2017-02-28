@@ -51,7 +51,7 @@ class Contact extends Component {
       webButton: {
         text: '기환&수경의 청첩장',
         url: 'http://www.20170325.com' // The URLs domain should be configured in app settings.
-      }
+      },
       fail: () => {
         message.error('모바일에서 이용해 주세요.');
       }
