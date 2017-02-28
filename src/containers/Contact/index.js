@@ -52,14 +52,6 @@ class Contact extends Component {
         text: '기환&수경의 청첩장',
         url: 'http://www.20170325.com' // The URLs domain should be configured in app settings.
       },
-      appButton: {
-        text: '기환&수경의 청첩장',
-        webUrl: 'http://www.20170325.com'
-      },
-      webLink: {
-        text: '기환&수경의 청첩장',
-        url: 'http://www.20170325.com'
-      },
       fail: () => {
         message.error('모바일에서 이용해 주세요.');
       }
