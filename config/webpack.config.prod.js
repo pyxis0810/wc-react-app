@@ -5,9 +5,9 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var ManifestPlugin = require('webpack-manifest-plugin');
 var InterpolateHtmlPlugin = require('react-dev-utils/InterpolateHtmlPlugin');
 var url = require('url');
+var path = require('path');
 var paths = require('./paths');
 var getClientEnvironment = require('./env');
-var paths = require('./paths');
 
 
 // Webpack uses `publicPath` to determine where the app is being served from.
