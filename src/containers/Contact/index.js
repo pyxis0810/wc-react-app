@@ -44,13 +44,17 @@ class Contact extends Component {
     Kakao.Link.sendTalkLink({
       label: '기환 & 수경의 결혼식에 초대합니다.',
       image: {
-        src: './wc-kakao-image.jpg',
+        src: 'http://www.20170325.com/wc-kakao-thumbnail.jpg',
         width: '700',
         height: '500'
       },
       webButton: {
         text: '기환&수경의 청첩장',
         url: 'http://www.20170325.com' // The URLs domain should be configured in app settings.
+      },
+      webLink: {
+        text: '기환&수경의 청첩장',
+        url: 'http://www.20170325.com'
       },
       fail: () => {
         message.error('모바일에서 이용해 주세요.');
