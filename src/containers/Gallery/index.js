@@ -46,7 +46,7 @@ class Gallery extends Component {
   renderImages = () => {
     const { posts } = this.props;
 
-    const post = posts[4];
+    const post = posts[0];
 
     return (
       <Card bordered={false} bodyStyle={{ padding: 0 }}>
