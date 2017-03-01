@@ -80,31 +80,33 @@ class Intro extends Component {
     return(
       <div className="container-intro">
         <Row className="intro">
-          <Col xs={{span:16, offset:4}} md={{span:14, offset:5}}>
-            <img src={logo} style={{width:' 100%'}} alt="20170325" />
-            <Row className="mention">
-              <Row>
-                <Col md={{span:20, offset:2}}>
-                  {this.renderName(locale, groom.firstname[locale], groom.lastname[locale])}
-                  <span className="handwrite">and</span>
-                  {this.renderName(locale, bride.firstname[locale], bride.lastname[locale])}
-                  <FormattedMessage id="app.intro.mention"/>
-                </Col>
-              </Row>
-              <Row className="date">
-                <Col>
-                  {`${this.renderDate(locale, date)}`}<br/>{`${this.renderTime(locale, `${date} ${time}`)}`}
-                </Col>
-              </Row>
-              <Row className="place">
-                <Col>
-                  {place[locale]}
-                </Col>
-              </Row>
-              <Row className="address">
-                <Col>
-                  {address[locale]}
-                </Col>
+          <Col xs={{span:22, offset:1}} sm={{span:16, offset:4}} md={{span:14, offset:5}} lg={{span:10, offset:7}} className="frame">
+            <Row className="paper">
+              <img src={logo} role="presentation" />
+              <Row className="mention">
+                <Row>
+                  <Col md={{span:20, offset:2}}>
+                    {this.renderName(locale, groom.firstname[locale], groom.lastname[locale])}
+                    <span className="handwrite">and</span>
+                    {this.renderName(locale, bride.firstname[locale], bride.lastname[locale])}
+                    <FormattedMessage id="app.intro.mention"/>
+                  </Col>
+                </Row>
+                <Row className="date">
+                  <Col>
+                    {`${this.renderDate(locale, date)}`}<br/>{`${this.renderTime(locale, `${date} ${time}`)}`}
+                  </Col>
+                </Row>
+                <Row className="place">
+                  <Col>
+                    {place[locale]}
+                  </Col>
+                </Row>
+                <Row className="address">
+                  <Col>
+                    {address[locale]}
+                  </Col>
+                </Row>
               </Row>
             </Row>
           </Col>

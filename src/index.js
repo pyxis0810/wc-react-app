@@ -1,3 +1,10 @@
+if (!String.prototype.startsWith) {
+  String.prototype.startsWith = function(searchString, position) {
+    position = position || 0;
+    return this.indexOf(searchString, position) === position;
+  };
+}
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
@@ -13,7 +20,6 @@ import Signin from 'routes/Signin';
 import Signup from 'routes/Signup';
 import Signout from 'routes/Signout';
 import Main from 'routes/Main';
-import Intro from 'routes/Intro';
 import Posts from 'routes/Posts';
 import Comments from 'routes/Comments';
 import Oauth from 'routes/Oauth';
@@ -37,7 +43,6 @@ const rootRoute = {
       Signin,
       Signup,
       Signout,
-      Intro,
       Posts,
       Comments,
       Oauth,

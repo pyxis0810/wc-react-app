@@ -69,7 +69,7 @@ class Location extends Component {
           <Row>
             <Col>
               <Button onClick={() => this.navi(location.lng, location.lat, place[locale])} className="navi-btn">
-                <img src="https://developers.kakao.com/assets/img/about/buttons/navi/kakaonavi_btn_small.png"/>
+                <img src="http://www.20170325.com/kakaonavi_btn_small.png"/>
                 <FormattedMessage id="app.location.navi"/>
               </Button>
             </Col>

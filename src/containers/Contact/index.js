@@ -42,14 +42,14 @@ class Contact extends Component {
 
   createTalkLink = () => {
     Kakao.Link.sendTalkLink({
-      label: '기환 & 수경의 결혼식에 초대합니다.\n\n 일시: 2017.03.25(토) 오후12:30\n장소:헤리츠2층 아그니스홀',
+      label: '기환 & 수경의 결혼식에 초대합니다.\n\n일시: 2017.03.25(토) 오후12:30\n장소: 헤리츠2층 아그니스홀',
       image: {
         src: 'http://www.20170325.com/wc-kakao-thumbnail.jpg',
         width: '700',
         height: '500'
       },
       webButton: {
-        text: '기환&수경의 청첩장',
+        text: '기환 & 수경의 청첩장',
         url: 'http://www.20170325.com' // The URLs domain should be configured in app settings.
       },
       fail: () => {
@@ -112,7 +112,7 @@ class Contact extends Component {
           <Row>
             <Col className="share">
               <Button id="kakao-link-btn" className="kakao-btn" ref={ref => { this.kakao = ref }} onClick={this.createTalkLink}>
-                <img src="https://dev.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_small.png"/>
+                <img src="http://www.20170325.com/kakaolink_btn_small.png"/>
                 <FormattedMessage id="app.contact.kakao"/>
               </Button>
             </Col>

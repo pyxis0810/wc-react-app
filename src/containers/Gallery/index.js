@@ -95,11 +95,10 @@ class Gallery extends Component {
       return null;
     }
 
-    //src={`/uploads/${post.thumbnail}`}
     return(
       <div className="container-gallery">
         <Row className="gallery">
-          <Col xs={{span:22, offset:1}} lg={{span:12, offset:6}}>
+          <Col xs={{span:22, offset:1}} md={{span:14, offset:5}} lg={{span:10, offset:7}} className="frame">
             {this.renderImages()}
           </Col>
         </Row>
