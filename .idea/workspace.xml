@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="876b346a-baea-45ed-91ee-f8dcef4841fd" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/polyfills.js" afterPath="$PROJECT_DIR$/config/polyfills.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,9 +26,21 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-              <folding />
+            <state relative-caret-position="279">
+              <caret line="89" column="6" lean-forward="false" selection-start-line="89" selection-start-column="6" selection-end-line="89" selection-end-column="6" />
+              <folding>
+                <marker date="1488351982000" expanded="true" signature="2387:2515" ph="{&quot;start&quot;: &quot;node scripts/start.js&quot;...}" />
+                <marker date="1488351982000" expanded="true" signature="2527:3221" ph="{&quot;testEnvironment&quot;: &quot;node&quot;...}" />
+                <marker date="1488351982000" expanded="true" signature="2556:2589" ph="[...]" />
+                <marker date="1488351982000" expanded="true" signature="2609:2654" ph="[...]" />
+                <marker date="1488351982000" expanded="true" signature="2686:2758" ph="[...]" />
+                <marker date="1488351982000" expanded="true" signature="2843:3052" ph="{&quot;^.+\.(js|jsx)$&quot;: &quot;&lt;rootDir&gt;/node_modules/babel-jest&quot;...}" />
+                <marker date="1488351982000" expanded="true" signature="3085:3141" ph="[...]" />
+                <marker date="1488351982000" expanded="true" signature="3167:3217" ph="{&quot;^react-native$&quot;: &quot;react-native-web&quot;...}" />
+                <marker date="1488351982000" expanded="true" signature="3234:3280" ph="{...}" />
+                <marker date="1488351982000" expanded="true" signature="3251:3276" ph="[...]" />
+                <marker date="1488351982000" expanded="true" signature="3300:3332" ph="{&quot;extends&quot;: &quot;react-app&quot;...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -35,9 +49,11 @@
         <entry file="file://$PROJECT_DIR$/src/components/Menu/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
-              <caret line="45" column="26" lean-forward="true" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+              <caret line="45" column="26" lean-forward="false" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
+                <marker date="1488347256000" expanded="true" signature="323:2364" ph="{...}" />
+                <marker date="1488347256000" expanded="true" signature="1262:1305" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -50,6 +66,8 @@
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
+                <marker date="1488350674000" expanded="true" signature="1537:1719" ph="&lt;Provider/&gt;" />
+                <marker date="1488350674000" expanded="true" signature="1566:1705" ph="&lt;LocaleProvider/&gt;" />
               </folding>
             </state>
           </provider>
@@ -68,8 +86,8 @@
       <file leaf-file-name="polyfills.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/polyfills.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+            <state relative-caret-position="285">
+              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -89,7 +107,7 @@
         <entry file="file://$PROJECT_DIR$/config/webpack.config.prod.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
-              <caret line="51" column="19" lean-forward="true" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+              <caret line="51" column="19" lean-forward="false" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -121,7 +139,7 @@
         <entry file="file://$PROJECT_DIR$/src/containers/Gallery/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="145">
-              <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+              <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -161,8 +179,8 @@
       <find>console.log</find>
       <find>img</find>
       <find>isOpen</find>
-      <find>polyfill</find>
       <find>poly</find>
+      <find>polyfill</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -603,12 +621,12 @@
       <workItem from="1488114781229" duration="9786000" />
       <workItem from="1488129492767" duration="13327000" />
       <workItem from="1488200485058" duration="9372000" />
-      <workItem from="1488257104140" duration="16685000" />
+      <workItem from="1488257104140" duration="17600000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99981000" />
+    <option name="totallyTimeSpent" value="100896000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="133" y="23" width="1787" height="1105" extended-state="0" />
@@ -954,7 +972,7 @@
         <state relative-caret-position="327">
           <caret line="96" column="19" lean-forward="true" selection-start-line="96" selection-start-column="19" selection-end-line="96" selection-end-column="19" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#0#24#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -993,20 +1011,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Menu/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="45" column="26" lean-forward="true" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+          <caret line="45" column="26" lean-forward="false" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
+            <marker date="1488347256000" expanded="true" signature="323:2364" ph="{...}" />
+            <marker date="1488347256000" expanded="true" signature="1262:1305" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1014,7 +1026,7 @@
     <entry file="file://$PROJECT_DIR$/src/containers/Gallery/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
-          <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
@@ -1027,6 +1039,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+            <marker date="1488350674000" expanded="true" signature="1537:1719" ph="&lt;Provider/&gt;" />
+            <marker date="1488350674000" expanded="true" signature="1566:1705" ph="&lt;LocaleProvider/&gt;" />
           </folding>
         </state>
       </provider>
@@ -1034,7 +1048,7 @@
     <entry file="file://$PROJECT_DIR$/config/webpack.config.prod.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="51" column="19" lean-forward="true" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+          <caret line="51" column="19" lean-forward="false" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -1047,10 +1061,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="89" column="6" lean-forward="false" selection-start-line="89" selection-start-column="6" selection-end-line="89" selection-end-column="6" />
+          <folding>
+            <marker date="1488351982000" expanded="true" signature="2387:2515" ph="{&quot;start&quot;: &quot;node scripts/start.js&quot;...}" />
+            <marker date="1488351982000" expanded="true" signature="2527:3221" ph="{&quot;testEnvironment&quot;: &quot;node&quot;...}" />
+            <marker date="1488351982000" expanded="true" signature="2556:2589" ph="[...]" />
+            <marker date="1488351982000" expanded="true" signature="2609:2654" ph="[...]" />
+            <marker date="1488351982000" expanded="true" signature="2686:2758" ph="[...]" />
+            <marker date="1488351982000" expanded="true" signature="2843:3052" ph="{&quot;^.+\.(js|jsx)$&quot;: &quot;&lt;rootDir&gt;/node_modules/babel-jest&quot;...}" />
+            <marker date="1488351982000" expanded="true" signature="3085:3141" ph="[...]" />
+            <marker date="1488351982000" expanded="true" signature="3167:3217" ph="{&quot;^react-native$&quot;: &quot;react-native-web&quot;...}" />
+            <marker date="1488351982000" expanded="true" signature="3234:3280" ph="{...}" />
+            <marker date="1488351982000" expanded="true" signature="3251:3276" ph="[...]" />
+            <marker date="1488351982000" expanded="true" signature="3300:3332" ph="{&quot;extends&quot;: &quot;react-app&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/polyfills.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        <state relative-caret-position="285">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
           <folding />
         </state>
       </provider>
