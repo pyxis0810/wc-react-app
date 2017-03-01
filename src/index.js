@@ -1,3 +1,4 @@
+/* eslint-disable */
 if (!String.prototype.startsWith) {
   String.prototype.startsWith = function(searchString, position) {
     position = position || 0;
@@ -51,10 +52,24 @@ const rootRoute = {
   }]
 };
 
+function hashLinkScroll() {
+  const { hash } = window.location;
+  if (hash !== '') {
+    // Push onto callback queue so it runs after the DOM is updated,
+    // this is required when navigating from a different page so that
+    // the element is rendered on the page before trying to getElementById.
+    setTimeout(() => {
+      const id = hash.replace('#', '');
+      const element = document.getElementById(id);
+      if (element) element.scrollIntoView();
+    }, 0);
+  }
+}
+
 ReactDOM.render(
   <Provider store={store}>
     <LocaleProvider locale={enUS}>
-      <Router history={browserHistory} routes={rootRoute} />
+      <Router history={browserHistory} routes={rootRoute} onUpdate={hashLinkScroll} />
     </LocaleProvider>
   </Provider>,
   document.getElementById('root')

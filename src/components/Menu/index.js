@@ -21,6 +21,14 @@ class Menu extends Component {
     };
   }
 
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      isOpen: false
+    };
+  }
+
   renderLinks = () => {
     const { authenticated } = this.props;
 
@@ -42,25 +50,29 @@ class Menu extends Component {
     }
   }
 
+  handleClick = () => {
+    this.setState({ isOpen: false });
+  }
+
   render() {
     return(
-      <Slide>
+      <Slide isOpen={this.state.isOpen}>
         <ul>
-          <a href="/#intro" className="menu-link"><li className="menu-item">
+          <Link to="#intro" className="menu-link" onClick={this.handleClick}><li className="menu-item">
             <FormattedMessage id="app.nav.intro" />
-          </li></a>
-          <a href="/#greetings" className="menu-link"><li className="menu-item">
+          </li></Link>
+          <Link to="#greetings" className="menu-link" onClick={this.handleClick}><li className="menu-item">
             <FormattedMessage id="app.nav.greetings" />
-          </li></a>
-          <a href="/#location" className="menu-link"><li className="menu-item">
+          </li></Link>
+          <Link to="#location" className="menu-link" onClick={this.handleClick}><li className="menu-item">
             <FormattedMessage id="app.nav.location" />
-          </li></a>
-          <a href="/#gallery" className="menu-link"><li className="menu-item">
+          </li></Link>
+          <Link to="#gallery" className="menu-link" onClick={this.handleClick}><li className="menu-item">
             <FormattedMessage id="app.nav.gallery" />
-          </li></a>
-          <a href="/#contact" className="menu-link"><li className="menu-item">
+          </li></Link>
+          <Link to="#contact" className="menu-link" onClick={this.handleClick}><li className="menu-item">
             <FormattedMessage id="app.nav.contact" />
-          </li></a>
+          </li></Link>
           <Locale/>
         </ul>
       </Slide>
