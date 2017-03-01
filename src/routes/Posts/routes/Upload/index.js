@@ -1,4 +1,4 @@
-import RequireAdmin from 'components/Admin';
+// import RequireAdmin from 'components/Admin';
 
 module.exports.default = module.exports = {
   path: 'upload',

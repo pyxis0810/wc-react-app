@@ -4,9 +4,8 @@ import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { FormattedMessage } from 'react-intl';
 
-import { Button, Card, Col, Icon, Row } from 'antd';
+import { Card, Col, Icon, Row } from 'antd';
 import Lightbox from 'react-image-lightbox';
-import { Parallax, Background } from 'react-parallax';
 
 import { getPosts } from 'actions/posts';
 

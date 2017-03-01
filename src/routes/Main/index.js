@@ -6,7 +6,7 @@ import { connect } from 'react-redux';
 const Kakao = window.Kakao;
 Kakao.init('95169511a0071ea494ffccd695c6e73c');
 
-import { SectionsContainer, Section, Footer } from 'react-fullpage';
+import { SectionsContainer, Section } from 'react-fullpage';
 
 import Intro from 'containers/Intro';
 import Invitation from 'containers/Invitation';

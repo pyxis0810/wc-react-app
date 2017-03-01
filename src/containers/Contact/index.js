@@ -9,7 +9,6 @@ import { FormattedMessage } from 'react-intl';
 const Kakao = window.Kakao;
 
 import { Button, Col, Icon, Row, message } from 'antd';
-import { Parallax, Background } from 'react-parallax';
 
 class Contact extends Component {
   static propTypes = {
@@ -80,7 +79,7 @@ class Contact extends Component {
                 <Col className="title">
                   THE GROOM
                   <div className="icon">
-                    <img src={groomIcon} />
+                    <img src={groomIcon} role="presentation" />
                   </div>
                 </Col>
               </Row>
@@ -99,7 +98,7 @@ class Contact extends Component {
                 <Col className="title">
                   THE BRIDE
                   <div className="icon">
-                    <img src={brideIcon} />
+                    <img src={brideIcon} role="presentation" />
                   </div>
                 </Col>
               </Row>
@@ -112,7 +111,7 @@ class Contact extends Component {
           <Row>
             <Col className="share">
               <Button id="kakao-link-btn" className="kakao-btn" ref={ref => { this.kakao = ref }} onClick={this.createTalkLink}>
-                <img src="http://www.20170325.com/kakaolink_btn_small.png"/>
+                <img src="http://www.20170325.com/kakaolink_btn_small.png" role="presentation"/>
                 <FormattedMessage id="app.contact.kakao"/>
               </Button>
             </Col>
