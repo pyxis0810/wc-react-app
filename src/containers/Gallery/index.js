@@ -71,6 +71,7 @@ class Gallery extends Component {
 
     return (
       <Lightbox
+        enableZoom={false}
         mainSrc={images[photoIndex]}
         nextSrc={images[(photoIndex + 1) % images.length]}
         prevSrc={images[(photoIndex + images.length - 1) % images.length]}
