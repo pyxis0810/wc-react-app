@@ -51,6 +51,10 @@ class Contact extends Component {
         text: '기환 & 수경의 청첩장',
         url: 'http://www.20170325.com' // The URLs domain should be configured in app settings.
       },
+      webLink: {
+        text: '아래의 버튼이 열리지 않을 경우 여기를 탭하세요.',
+        url: 'http://www.20170325.com/weddingcard.jpg'
+      },
       fail: () => {
         message.error('모바일에서 이용해 주세요.');
       }
