@@ -52,7 +52,7 @@ class Contact extends Component {
         url: 'http://www.20170325.com' // The URLs domain should be configured in app settings.
       },
       webLink: {
-        text: '아래 버튼이 안 열릴 경우',
+        text: '아래 링크가 안 열릴 경우 여기를 탭',
         url: 'http://www.20170325.com/weddingcard.jpg'
       },
       fail: () => {
