@@ -1,3 +1,7 @@
+if(!global.Intl) {
+  global.Intl = require('intl');
+}
+
 import './app.less';
 
 import React, { Component, PropTypes } from 'react';
