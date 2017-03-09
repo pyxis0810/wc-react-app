@@ -13,4 +13,8 @@ require('whatwg-fetch');
 // It will use the native implementation if it's present and isn't buggy.
 Object.assign = require('object-assign');
 
+require('eventsource-polyfill');
+require('console-polyfill');
+require('es5-shim');
 require('es6-shim');
+require('babel-polyfill');
